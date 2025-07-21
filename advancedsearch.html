@@ -1,0 +1,84 @@
+<html lang="en">
+
+    <head>
+
+        <title> Advanced Search</title>
+
+
+         <style>
+
+           div {
+
+           text-align: right;
+            
+                }
+           #boo {
+              text-align: left;
+              font-family: sans-serif;
+              padding-right: 490px;
+              padding-top: 20px;
+   
+                 }
+
+           #lol {
+                 background-color: #4285F4;
+                 color: white;
+                 border-radius: 4px;
+                 padding: 5px;
+                 
+
+                 }
+           h3 {
+               font-weight: bold;
+               font-family: sans-serif;
+              
+              }
+
+         </style>
+
+    </head>
+
+
+
+    <body>
+   
+       <div>
+       <a href="index.html">Google Search</a>
+       </div>
+
+       <h3>Find pages with...</h3>
+
+       <form action="https://www.google.com/search?" method="GET">
+
+
+       <div id="boo">
+       all these words:
+       <input type="text" name="as_q" style="height:30px; width: 500px;">
+       </div>
+
+
+
+      <div id="boo">
+      this exact word or phrase:
+      <input type="text" name="as_epq" style="height:30px; width: 500px;">
+      </div>
+
+
+     <div id="boo">
+      any of these words:
+      <input type="text" name="as_oq" style="height:30px; width: 500px;">
+     </div>
+
+
+   
+       <div id="boo">
+       none of these words:
+       <input type="text" name="as_eq" style="height:30px; width: 500px;">
+       </div>
+
+       <button type="submit" id="lol">Advanced Search</button>
+    </form>
+
+    </body>
+
+</html>
